@@ -2,9 +2,9 @@
 
 ## Basic Information
 
-Full Name:
+Full Name: Davis Koh
 
-Email address:
+Email address: koh.davis@yahoo.com
 
 ## Programming Basics
 
