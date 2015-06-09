@@ -10,17 +10,35 @@ Email address:
 
 To the best of your ability, describe the difference between programming and computer science.
 
+Computer Science is the study of computation of which programming is only one of the many disciplines that fall under its umbrella.
+
 What is binary?
+
+Two numbers (0 and 1) that are used to represent information for a computer to process. 
 
 What are bits?
 
+Short for binary digits can only be 2 values: 0 or 1. 
+
 What are bytes?
+
+A unit of measurement of computer info. A byte holds 8 bits. 
 
 What is ASCII?
 
+Standard that maps numbers (patterns of bits) to uppercase letters. 
+
 What are algorithms? Using pseudo code, write an algorithm that will reverse a string.
 
+Sets of instructions used to solve problems.
+
+func reverse(string) -> string
+    if string length == 0 then return string
+    return string last char + reverse(string without last char)
+
 What does it mean to compile your code? Describe how a compiler works.
+
+Compiling code is translating code into something a computer can read and understand. TODO: compiler description
 
 What is the new line character? How does it work?
 
