@@ -46,7 +46,7 @@ The newline char is '\n'. It is a char that tells the compiler (or interpreter) 
 
 What is the terminal or command line? How can we use it as developers?
 
-Terminal is an terminal emulator whose UI is graphical and interface is the command line. It allows humans to type and execute commands for the OS to run. Developers can use ones packaged with their OS such as Terminal or download 3rd party ones like iTerm.
+Terminal is an terminal emulator whose UI is text-only and interface is the command line. It allows humans to type and execute commands for the OS to run. Developers can use ones packaged with their OS such as Terminal or download 3rd party ones like iTerm.
 
 ## The C Programming Language
 
