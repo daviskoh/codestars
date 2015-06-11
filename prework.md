@@ -52,6 +52,8 @@ Terminal is an terminal emulator whose UI is text-only and interface is the comm
 
 What are header files and what are they used for? Write an example of how you would use a header file below.
 
+TODO: here - header files
+
 List the different types used in C along with their size. What’s the difference between int, float and double?
 
 What are variables? How might we use them in our program? How do we declare variables in C?
