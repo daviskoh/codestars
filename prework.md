@@ -38,11 +38,15 @@ func reverse(string) -> string
 
 What does it mean to compile your code? Describe how a compiler works.
 
-Compiling code is translating code into something a computer can read and understand. TODO: compiler description
+Compiling code is translating code into something a computer can read and understand. A compiler is a program that will read source code input and using a set of pre-programmed instructions, translate that code into 0's and 1's that a particular machine can run.
 
 What is the new line character? How does it work?
 
+The newline char is '\n'. It is a char that tells the compiler (or interpreter) to add a new line at the location where it is used. The compiler is pre-programmed to know what the '\n' character is.
+
 What is the terminal or command line? How can we use it as developers?
+
+Terminal is an terminal emulator whose UI is graphical and interface is the command line. It allows humans to type and execute commands for the OS to run. Developers can use ones packaged with their OS such as Terminal or download 3rd party ones like iTerm.
 
 ## The C Programming Language
 
