@@ -52,12 +52,14 @@ Terminal is an terminal emulator whose UI is text-only and interface is the comm
 
 What are header files and what are they used for? Write an example of how you would use a header file below.
 
-Header files contain declarations for functionality that is implemented in .c files. They are used for reusing other bits of already-written code. 
+Header files contain declarations for functionality (via functions) that is implemented in .c files. They are used for reusing other bits of already-written code. 
 
 Ex:
 #include <stdio.h>
 
 List the different types used in C along with their size. What’s the difference between int, float and double?
+
+TODO: bookmark
 
 What are variables? How might we use them in our program? How do we declare variables in C?
 
