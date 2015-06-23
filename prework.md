@@ -59,6 +59,14 @@ Ex:
 
 List the different types used in C along with their size. What’s the difference between int, float and double?
 
+Types:
+char - 1 byte / 8 bits 
+int - 4 bytes
+float - 4 bytes
+double - 8 bytes
+long long - 8 bytes
+
+An int is a data type that represents whole numbers (i.e. -1, 5, 1234123, etc). A float is a data type that represents decimal numbers. A double is 
 TODO: bookmark
 
 What are variables? How might we use them in our program? How do we declare variables in C?
