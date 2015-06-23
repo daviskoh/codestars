@@ -1,3 +1,3 @@
 CS50
 
-TODO: lecture 2 W
+TODO: lecture 3 M
