@@ -71,6 +71,11 @@ TODO: bookmark
 
 What are variables? How might we use them in our program? How do we declare variables in C?
 
+Variables are named storages that can hold values. Variables can be used when certain values are accessible at one point in the code, but perhaps also needed in another. The variable referenced in order to access the stored value. 
+
+Ex:
+int age = 24;
+
 How do we create strings in C?
 
 What is a char*?
