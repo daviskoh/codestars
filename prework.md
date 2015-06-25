@@ -59,7 +59,7 @@ Ex:
 
 List the different types used in C along with their size. What’s the difference between int, float and double?
 
-Types:
+Basic Types:
 char - 1 byte / 8 bits 
 int - 4 bytes
 float - 4 bytes
@@ -81,9 +81,17 @@ TODO: bookmark
 
 What is a char*?
 
+This is a pointer. It holds the memory address of a char type.
+
 Write a simple if/else statement in C.
 
+```
+true ? "It is true" : "It is false";
+```
+
 Explain what functions are and they help us write better code?
+
+Functions are groups are executable statements that can be used and reused by calling the function. It can help write better code allowing functionality to be reused and more testable given that it exists in a single isolated place.
 
 Describe how strings are represented in C.
 
