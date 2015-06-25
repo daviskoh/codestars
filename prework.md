@@ -66,8 +66,7 @@ float - 4 bytes
 double - 8 bytes
 long long - 8 bytes
 
-An int is a data type that represents whole numbers (i.e. -1, 5, 1234123, etc). A float is a data type that represents decimal numbers. A double is 
-TODO: bookmark
+An int is a data type that represents whole numbers (i.e. -1, 5, 1234123, etc), while floats and doubles are data types that represent decimal numbers. Floats and doubles differ in precision and thus size. Doubles are more precise and thus take up more space. When to use either can depend on the problem. For example, if accuracy is not a huge issue, then floats can be used over doubles.  
 
 What are variables? How might we use them in our program? How do we declare variables in C?
 
@@ -77,6 +76,8 @@ Ex:
 int age = 24;
 
 How do we create strings in C?
+
+TODO: bookmark
 
 What is a char*?
 
