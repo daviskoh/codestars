@@ -101,6 +101,12 @@ What is an array? How are they represented in C? How are strings and arrays rela
 
 What does void represent?
 
+Void means non type aka represents a lack of return value. Thus when you see:
+
+void returnNothing(...
+
+This means that the func returnNothing does not return any value.
+
 What is argv? How does it work?
 
 What is a struct and why are they useful? Write a struct that represents an employee where an employ has a name, department, title and number of years on the job.
@@ -111,11 +117,15 @@ What are pointers? How do we use them when programming in C?
 
 What is memory?
 
+Memory is space in a computer used to store info that can be retrieved quickly. Data from a program is stored in computer memory. 
+
 How do we ask the operating system for memory using C?
 
 What is a segmentation fault?
 
 Describe what a memory leak is. How can we avoid them?
+
+A memory leak is when computer memory is consumed without being freed. Ultimately, this can cause undesired effects like execution slowness or even an app crash. Other than using memory management tools, this can be avoided by making sure to free up memory when needed and debugged using memory profilers like that of Xcode or Chrome Dev Tools. 
 
 What does it mean to pass-by-reference?
 
