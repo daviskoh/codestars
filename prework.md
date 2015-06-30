@@ -102,7 +102,11 @@ Functions are groups are executable statements that can be used and reused by ca
 
 Describe how strings are represented in C.
 
+String literals are represented in C using double quotes (""). 
+
 What is the null terminator character?
+
+TODO: bookmark
 
 What is an array? How are they represented in C? How are strings and arrays related in C?
 
