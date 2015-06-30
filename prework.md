@@ -77,11 +77,18 @@ int age = 24;
 
 How do we create strings in C?
 
-TODO: bookmark
+There are 2 ways:
+
+```
+char *string1 = "hello";
+
+char string2[] = "world";
+
+```
 
 What is a char*?
 
-This is a pointer. It holds the memory address of a char type.
+This is a C string, a pointer. It holds the memory address of a char type. It is used to hold a reference to the 1st character in a string. 
 
 Write a simple if/else statement in C.
 
