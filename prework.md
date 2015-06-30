@@ -187,6 +187,13 @@ What are protocols? What do we use them for?
 
 1) Write a function that cubes the sum of three numbers and returns the result. Please complete this problem using C.
 
+```
+int cubedSum(int n1, int n2, int n3) {
+    int sum = n1 + n2 + n3;
+    return sum * sum * sum; 
+}
+```
+
 2) If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000. Please complete this problem using C.
 
 3) Write a short program that reverses a string using Objective-C.
