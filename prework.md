@@ -114,7 +114,9 @@ What does void represent?
 
 Void means non type aka represents a lack of return value. Thus when you see:
 
+```
 void returnNothing(...
+```
 
 This means that the func returnNothing does not return any value.
 
