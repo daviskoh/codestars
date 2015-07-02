@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 
 // typedef allows alias for type declaration for re-use
 typedef struct {
@@ -26,6 +27,15 @@ int main(int charc, const char *argv[]) {
     printf("aaron weighs %d kilograms\n", aaron.weightInKilos);
     printf("aaron is %.2f meters tall\n", aaron.heightInMeters);
     printf("aaron has a BMI of %.2f\n", bodyMassIndex(aaron));
+
+    // Challenge
+    // get seconds from 1970 += 4m seconds
+    long secondsSince1970Plus4Million = time(NULL) + 4000000;
+    // feed into localtime_r
+    struct tm then;
+    localtime_r(&secondsSince1970Plus4Million, &then);
+    // printf
+    printf("%d-%d-%d\n", then.tm_mon, then.tm_mday, then.tm_year + 1900);
 
     return 0;
 }
