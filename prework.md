@@ -130,6 +130,13 @@ It is the location in memory where a value is stored.
 
 What are pointers? How do we use them when programming in C?
 
+Pointers are variables that store the memory address of a type. They are declared like so:
+
+```
+// declares a pointer to an int
+int *myPointer
+```
+
 What is memory?
 
 Memory is space in a computer used to store info that can be retrieved quickly. Data from a program is stored in computer memory. 
