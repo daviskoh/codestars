@@ -106,9 +106,11 @@ String literals are represented in C using double quotes ("").
 
 What is the null terminator character?
 
-TODO: bookmark
+TODO: unanswered
 
 What is an array? How are they represented in C? How are strings and arrays related in C?
+
+TODO: unanswered
 
 What does void represent?
 
@@ -122,7 +124,11 @@ This means that the func returnNothing does not return any value.
 
 What is argv? How does it work?
 
+TODO: unanswered
+
 What is a struct and why are they useful? Write a struct that represents an employee where an employ has a name, department, title and number of years on the job.
+
+TODO: unanswered
 
 What is a memory address?
 
@@ -143,7 +149,11 @@ Memory is space in a computer used to store info that can be retrieved quickly. 
 
 How do we ask the operating system for memory using C?
 
+TODO: unanswered
+
 What is a segmentation fault?
+
+TODO: unanswered
 
 Describe what a memory leak is. How can we avoid them?
 
@@ -151,7 +161,11 @@ A memory leak is when computer memory is consumed without being freed. Ultimatel
 
 What does it mean to pass-by-reference?
 
+This means passing around the memory address. This is in constrast to passing by copy which is passing around the value itself. 
+
 What is the difference between the stack and the heap? How does C use these data structures to perform memory management? You should explain, step-by- step, the process and key functions used in C to accomplish this.
+
+TODO: unanswered
 
 ##Objective-C
 
