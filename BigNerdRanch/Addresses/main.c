@@ -13,5 +13,13 @@ int main(int charc, const char *argv[]) {
     printf("An int is %zu bytes\n", sizeof(i));
     printf("A pointer is %zu bytes\n", sizeof(addressOfI));
 
+    // used to explicitly say nothing is stored
+    float *myPointer = NULL;
+    printf("%d\n", myPointer == 0);
+
+
+    // Challenge
+    printf("A float consumes %zu bytes\n", sizeof(float));
+
     return 0;
 }
