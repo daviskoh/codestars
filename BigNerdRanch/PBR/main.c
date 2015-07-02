@@ -4,14 +4,16 @@
 void metersToFeetAndInches(double meters, unsigned int *ftPtr, double *inPtr) {
     double rawFeet = meters * 3.281;
 
-    unsigned int feet = (unsigned int)floor(rawFeet);
+    printf("%.4f\n", rawFeet);
+    // unsigned int feet = (unsigned int)floor(rawFeet);
+    double feet;
+    double fractionFoot = modf(rawFeet, &feet);
 
     if (ftPtr) {
         *ftPtr = feet;
     }
 
     if (inPtr) {
-        double fractionFoot = rawFeet - feet;
         double inches = fractionFoot * 12.0;
         *inPtr = inches;
     }
