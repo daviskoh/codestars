@@ -128,7 +128,16 @@ TODO: unanswered
 
 What is a struct and why are they useful? Write a struct that represents an employee where an employ has a name, department, title and number of years on the job.
 
-TODO: unanswered
+A struct is a data type that holds fields of data (called members). 
+
+```
+struct Employee {
+    char name[];
+    char department[];
+    char title[];
+    int yearsAtJob;
+};
+```
 
 What is a memory address?
 
