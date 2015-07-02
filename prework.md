@@ -126,6 +126,8 @@ What is a struct and why are they useful? Write a struct that represents an empl
 
 What is a memory address?
 
+It is the location in memory where a value is stored. 
+
 What are pointers? How do we use them when programming in C?
 
 What is memory?
