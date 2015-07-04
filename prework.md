@@ -124,7 +124,11 @@ This means that the func returnNothing does not return any value.
 
 What is argv? How does it work?
 
-TODO: unanswered
+argv stands for argument vector or one-dimensional array. argv is an array of strings each of which is an argument passed to the program. The 1st element of argv is the name of the program run. Subsequent elements are arguments passed into the command. When running a program, simply pass arguments separated by whitespace. For example:
+
+```
+$ ./main arg1 arg2 arg3
+```
 
 What is a struct and why are they useful? Write a struct that represents an employee where an employ has a name, department, title and number of years on the job.
 
