@@ -174,7 +174,7 @@ Memory is space in a computer used to store info that can be retrieved quickly. 
 
 How do we ask the operating system for memory using C?
 
-TODO: unanswered
+To request memory on the heap, we use the `malloc()` func. Ex:
 
 What is a segmentation fault?
 
