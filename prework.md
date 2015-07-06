@@ -190,7 +190,11 @@ This means passing around the memory address. This is in constrast to passing by
 
 What is the difference between the stack and the heap? How does C use these data structures to perform memory management? You should explain, step-by- step, the process and key functions used in C to accomplish this.
 
-TODO: unanswered
+The stack is a LIFO (last in / first out) data structure used for function memory. It is automatically allocated when the function is called and deallocated when terminated. Memory on the stack is scoped to whichever function owns it, but memory on the heap can be accessed across different functions. Memory on the stack is automatically managed. Memory on the heap needs to be managed manually like so:
+
+1) Request buffer of memory using `malloc()` passing in memory size as the argument which would likely require using `sizeof()`
+2) Use buffer received from the `malloc()` return value. Note that `malloc()` returns the memory address to the 1st element in the buffer.
+3) Free memory using `free()` passing in the buffer as the argument. 
 
 ##Objective-C
 
