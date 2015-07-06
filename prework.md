@@ -110,7 +110,13 @@ It is \0. It is a character used in a null-terminated string to mark the end of 
 
 What is an array? How are they represented in C? How are strings and arrays related in C?
 
-TODO: unanswered
+An array is a data structure that is used to stored a fixed (length is specified upon declaration) collection of values. In C, they are represented using brackets. Ex declaration:
+
+```
+int numbers[9];
+```
+
+Strings are related to arrays because they are null-terminated arrays of chars. 
 
 What does void represent?
 
