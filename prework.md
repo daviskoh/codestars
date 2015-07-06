@@ -32,9 +32,11 @@ What are algorithms? Using pseudo code, write an algorithm that will reverse a s
 
 Sets of instructions used to solve problems.
 
+```
 func reverse(string) -> string
     if string length == 0 then return string
     return string last char + reverse(string without last char)
+```
 
 What does it mean to compile your code? Describe how a compiler works.
 
@@ -55,16 +57,19 @@ What are header files and what are they used for? Write an example of how you wo
 Header files contain declarations for functionality (via functions) that is implemented in .c files. They are used for reusing other bits of already-written code. 
 
 Ex:
+
+```
 #include <stdio.h>
+```
 
 List the different types used in C along with their size. What’s the difference between int, float and double?
 
-Basic Types:
-char - 1 byte / 8 bits 
-int - 4 bytes
-float - 4 bytes
-double - 8 bytes
-long long - 8 bytes
+Basic Types:  
+char - 1 byte / 8 bits  
+int - 4 bytes  
+float - 4 bytes  
+double - 8 bytes  
+long long - 8 bytes  
 
 An int is a data type that represents whole numbers (i.e. -1, 5, 1234123, etc), while floats and doubles are data types that represent decimal numbers. Floats and doubles differ in precision and thus size. Doubles are more precise and thus take up more space. When to use either can depend on the problem. For example, if accuracy is not a huge issue, then floats can be used over doubles.  
 
@@ -73,7 +78,10 @@ What are variables? How might we use them in our program? How do we declare vari
 Variables are named storages that can hold values. Variables can be used when certain values are accessible at one point in the code, but perhaps also needed in another. The variable referenced in order to access the stored value. 
 
 Ex:
+
+```
 int age = 24;
+```
 
 How do we create strings in C?
 
@@ -81,9 +89,7 @@ There are 2 ways:
 
 ```
 char *string1 = "hello";
-
 char string2[] = "world";
-
 ```
 
 What is a char*?
