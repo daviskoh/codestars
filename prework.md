@@ -106,7 +106,7 @@ String literals are represented in C using double quotes ("").
 
 What is the null terminator character?
 
-TODO: unanswered
+It is \0. It is a character used in a null-terminated string to mark the end of the string. Given that strings are stored as arrays of chars, The null terminator is used to distinguish between 1 string and another that is right "next" to it. 
 
 What is an array? How are they represented in C? How are strings and arrays related in C?
 
