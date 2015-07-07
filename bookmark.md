@@ -1,2 +1,2 @@
-TODO: CS50 lecture 3 W
+TODO: CS50 lecture 4 W
 
