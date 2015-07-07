@@ -108,7 +108,7 @@ Functions are groups are executable statements that can be used and reused by ca
 
 Describe how strings are represented in C.
 
-String literals are represented in C using double quotes (""). 
+String literals are syntactically represented in C using double quotes (""). They are stored in memory as arrays of chars terminated by the null-terminator (\0). A variable that "stores" a string actually holds the memory address of the 1st char and knows where the string ends by the null terminator.
 
 What is the null terminator character?
 
