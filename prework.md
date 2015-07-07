@@ -178,7 +178,7 @@ To request memory on the heap, we use the `malloc()` func. Ex:
 
 What is a segmentation fault?
 
-TODO: unanswered
+Segmentation fault is an error that occurs when attempting to access memory in a way that is not permitted by the OS. A common cause is dereferencing (access the value specified by the memory address) a null pointer aka trying to access something that does not exist thus throwing the error. 
 
 Describe what a memory leak is. How can we avoid them?
 
