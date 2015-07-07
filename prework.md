@@ -178,7 +178,7 @@ To request memory on the heap, we use the `malloc()` func. Ex:
 
 What is a segmentation fault?
 
-Segmentation fault is an error that occurs when attempting to access memory in a way that is not permitted by the OS. A common cause is dereferencing (access the value specified by the memory address) a null pointer aka trying to access something that does not exist thus throwing the error. 
+Segmentation fault is an error that occurs when attempting to access memory in a way that is not permitted by the OS. A common cause is dereferencing (access the value specified by the memory address) a null pointer aka trying to access something that does not exist thus throwing the error. Exceptions thrown from segemenation faults are a necessary security feature given that C grants quite a bit of control to system memory. 
 
 Describe what a memory leak is. How can we avoid them?
 
