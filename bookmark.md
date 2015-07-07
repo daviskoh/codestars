@@ -1,2 +1,2 @@
-TODO: CS50 lecture 4 W
+TODO: CS50 lecture 5 M
 
