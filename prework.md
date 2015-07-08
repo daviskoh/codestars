@@ -200,15 +200,31 @@ The stack is a LIFO (last in / first out) data structure used for function memor
 
 What are classes, what are objects? How are the two related?
 
+An object is a structure that can hold data and act upon it. A class describes a type of object aka the methods & instance variables. Before creating an instance of an object, we must specify what type of object (class).  
+
 What are methods?
+
+Methods are functions defined of objects that are triggered via messages. 
 
 What are the difference between class methods and instance methods?
 
+Class methods are ones that are defined and called on the class itself, while instance methods are called on an instance of a class. A class method may be useful when a class does not need to be instantiated. For example, convenient methods such as `NSString:stringWithFormat` are useful without the need to instantiate a new NSString. 
+
 What does it mean to send a message in Objective-C? Give an example of how this works.
+
+This is requesting a function of an object be called. Ex:
+
+```
+[NSString alloc];
+```
 
 What are alloc and init? What are they used for? What C functions do they remind you of?
 
+`alloc` requests memory to be allocated and `init` initializes / sets up an object. This can include setting any instance variables or other setup work. The 2 are used to instantiate objects. They look similar to `malloc` in C. 
+
 How does memory management work in Objective-C? How does it differ and/or resemble memory management in C?
+
+TODO: memory mgmt in objc
 
 What is NSString? How is it different from a regular C string?
 
