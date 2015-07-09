@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+@class Employee;
 
 @interface Asset : NSObject
 
@@ -14,5 +15,7 @@
 // NOTE: when object doesn't have any owners, it is deallocated
 @property (strong) NSString *label;
 @property unsigned int resaleValue;
+
+@property (weak) Employee *holder;
 
 @end

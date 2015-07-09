@@ -21,6 +21,8 @@ int main(int argc, const char * argv[]) {
             [employees addObject:person];
         }
         
+        NSMutableArray *allAssets = [[NSMutableArray alloc] init];
+        
         for (int i = 0; i < 10; i++) {
             Asset *asset = [[Asset alloc] init];
             NSString *currentLabel = [NSString stringWithFormat:@"Laptop %d", i];
@@ -32,6 +34,8 @@ int main(int argc, const char * argv[]) {
             Employee *randomEmployee = [employees objectAtIndex:randomIndex];
             
             [randomEmployee addAssetsObject:asset];
+            
+            [allAssets addObject:asset];
         }
         
         NSLog(@"Employees: %@", employees);
@@ -40,9 +44,15 @@ int main(int argc, const char * argv[]) {
         
         [employees removeObjectAtIndex:5];
         
+        NSLog(@"allAssets: %@", allAssets);
+        
         NSLog(@"Giving up ownership of array");
         
+        allAssets = nil;
         employees = nil;
     }
+    
+    sleep(100);
+    
     return 0;
 }

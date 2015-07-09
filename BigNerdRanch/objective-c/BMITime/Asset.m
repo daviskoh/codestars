@@ -7,11 +7,16 @@
 //
 
 #import "Asset.h"
+#import "Employee.h"
 
 @implementation Asset
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"<%@: $%d>", self.label, self.resaleValue];
+    if (self.holder) {
+        return [NSString stringWithFormat:@"<%@: $%d, assigned to %@>", self.label, self.resaleValue, self.holder];
+    }
+    
+    return [NSString stringWithFormat:@"<%@: $%d, unassigned>", self.label, self.resaleValue];
 }
 
 - (void)dealloc {
