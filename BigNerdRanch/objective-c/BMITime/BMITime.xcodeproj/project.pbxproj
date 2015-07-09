@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DD726BF21B4F0BB300408958 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD726BF11B4F0BB300408958 /* main.m */; };
 		DD726BFA1B4F0CB600408958 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DD726BF91B4F0CB600408958 /* Person.m */; };
+		DD726BFD1B4F0E7600408958 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = DD726BFC1B4F0E7600408958 /* Employee.m */; };
+		DD726C001B4F0EA600408958 /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = DD726BFF1B4F0EA600408958 /* Asset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		DD726BF11B4F0BB300408958 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD726BF81B4F0CB600408958 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		DD726BF91B4F0CB600408958 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DD726BFB1B4F0E7600408958 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		DD726BFC1B4F0E7600408958 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		DD726BFE1B4F0EA600408958 /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		DD726BFF1B4F0EA600408958 /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,10 @@
 			children = (
 				DD726BF81B4F0CB600408958 /* Person.h */,
 				DD726BF91B4F0CB600408958 /* Person.m */,
+				DD726BFB1B4F0E7600408958 /* Employee.h */,
+				DD726BFC1B4F0E7600408958 /* Employee.m */,
+				DD726BFE1B4F0EA600408958 /* Asset.h */,
+				DD726BFF1B4F0EA600408958 /* Asset.m */,
 				DD726BF01B4F0BB300408958 /* BMITime */,
 				DD726BEF1B4F0BB300408958 /* Products */,
 			);
@@ -123,7 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD726BFD1B4F0E7600408958 /* Employee.m in Sources */,
 				DD726BFA1B4F0CB600408958 /* Person.m in Sources */,
+				DD726C001B4F0EA600408958 /* Asset.m in Sources */,
 				DD726BF21B4F0BB300408958 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
