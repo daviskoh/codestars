@@ -232,6 +232,20 @@ It is a class whose instances hold string data types. It defers from a C string 
 
 Name some ways that we can create arrays in Objective-C? How is this different from how we create arrays in C?
 
+```
+NSString *name = @"Davis";
+NSNumber *age = @21;
+
+// using class method
+NSArray *arrayOne = [NSArray arrayWithObjects:name, age, nil];
+// literal
+NSArray *arrayTwo = @[name, age];
+
+NSMutableArray *mutableArray = [NSMutableArray array];
+```
+
+This is different from C where there is no OOP and thus convenience methods. Also as can be seen from above, NSArrays can hold different types. 
+
 Explain what properties are.
 
 What are instance variables?
