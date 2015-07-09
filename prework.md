@@ -277,7 +277,7 @@ This means that an object "owns" the object it is referencing w/ the property. T
 
 What are weak references?
 
-This means that unlike strongly referenced objects, it will get destroyed and set to nil automatically when no objects hold a strong reference to it. 
+This means that a pointer does not "own" the object. Unlike strongly referenced objects, it will get destroyed and set to nil automatically when no objects hold a strong reference to it. 
 
 What are some ways that we can prevent memory leaks?
 
