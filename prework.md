@@ -260,7 +260,12 @@ Self is a pointer to the object running a particular method.
 
 How does inheritance work in Objective-C? How do we override methods?
 
+Via inheritance, classes inherit instance variables and methods from their parent classes. For example, when a subclass instance calls a method it inherited from its parent class, it uses the `isa` pointer to see up the inheritance chain whether it is available before calling it ulitmately failing if it does not find it.
+Overriding methods is done by by rewriting the method implementation in the .m implementation file. Declaring is not necessary as the parent class has already done so.
+
 Explain the “super” keyword.
+
+It is a directive that specifies the super class when calling a specific method. Think `super` except it starts looking up method implementation starting with the super class.
 
 Explain the inheritance hierarchy.
 
