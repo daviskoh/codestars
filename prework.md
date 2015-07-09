@@ -248,7 +248,11 @@ This is different from C where there is no OOP and thus convenience methods. Als
 
 Explain what properties are.
 
+At a high level, properties are fields that hold an object state / data. In Objective-C, you use the `@property` directive which creates getters and setters as an interface for interacting w/ the underlying instance variable.
+
 What are instance variables?
+
+Instance variables are variables that store data for an instance of a class. When you use setters to associate data w/ a particular object, the underlying storage is the instance variable. 
 
 Explain what self is.
 
