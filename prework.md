@@ -273,7 +273,11 @@ Classes have superclasses (with NSObject as the root class) and can have subclas
 
 What are strong references?
 
+This means that an object "owns" the object it is referencing w/ the property. The object assigned to this property will not be destroyed as long as there is a strong reference to it. When the property gets set to nil, the object will be destroyed. 
+
 What are weak references?
+
+This means that unlike strongly referenced objects, it will get destroyed and set to nil automatically when no objects hold a strong reference to it. 
 
 What are some ways that we can prevent memory leaks?
 
