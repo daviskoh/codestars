@@ -1,3 +1,11 @@
+//
+//  Person.m
+//  BMITime
+//
+//  Created by Davis Koh on 7/9/15.
+//  Copyright (c) 2015 com.DavisKoh. All rights reserved.
+//
+
 #import "Person.h"
 
 @interface Person ()
@@ -11,12 +19,12 @@
 
 - (id)initWithHeightInMeters:(float)height weightInKilos:(int)weight {
     self = [super init];
-
+    
     if (self) {
-        _heightInMeters = height;
-        _weightInKilos = weight;
+        self.heightInMeters = height;
+        self.weightInKilos = weight;
     }
-
+    
     return self;
 }
 
