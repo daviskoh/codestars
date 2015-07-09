@@ -256,6 +256,8 @@ Instance variables are variables that store data for an instance of a class. Whe
 
 Explain what self is.
 
+Self is a pointer to the object running a particular method. 
+
 How does inheritance work in Objective-C? How do we override methods?
 
 Explain the “super” keyword.
