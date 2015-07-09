@@ -269,6 +269,8 @@ It is a directive that specifies the super class when calling a specific method.
 
 Explain the inheritance hierarchy.
 
+Classes have superclasses (with NSObject as the root class) and can have subclasses. This chain of inheritance allows children to inherit variables & methods from their parents. The hierarchy can be viewed as if it were a tree where classes can have multiple subclasses, but only a single superclass.
+
 What are strong references?
 
 What are weak references?
