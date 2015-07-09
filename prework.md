@@ -281,6 +281,8 @@ This means that a pointer does not "own" the object. Unlike strongly referenced 
 
 What are some ways that we can prevent memory leaks?
 
+One way is to make sure retain cycles do not occur. This can be done making sure that only the parent object holds a strong reference cycle to the child object, while the child holds a weak one to the parent. Another is to make sure to use `__weak` for references to `self` accessed lexically from a block used within a instance method using `self` as blocks use strong references by default. The Instruments in Xcode help debug memory leaks. 
+
 What are immutable objects in Objective-C? Name some immutable objects.
 
 What is the difference between an NSSet and an NSMutableSet?
