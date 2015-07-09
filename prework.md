@@ -228,6 +228,8 @@ TODO: memory mgmt in objc
 
 What is NSString? How is it different from a regular C string?
 
+It is a class whose instances hold string data types. It defers from a C string because it is a class which means there are methods & properties available. A C string is just a low level array of chars. 
+
 Name some ways that we can create arrays in Objective-C? How is this different from how we create arrays in C?
 
 Explain what properties are.
