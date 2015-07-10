@@ -305,6 +305,8 @@ Global variables are variables that can be accessed in any file without explicit
 
 Explain what a callback is. How might callbacks be useful?
 
+A callbacks are specified actions that take place after something else has occurred. They are particularly useful for event-oriented programming that is typical of UIs (i.e. react to a touch, wait for a notification, etc). 
+
 Explain what a block is, what would we use one for?
 
 What are protocols? What do we use them for?
