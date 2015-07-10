@@ -297,6 +297,8 @@ NSDictionaries are static while NSMutableDictionaries allow adding of new key-va
 
 What are #import and #include used for?
 
+These are preprocessor directives that add a specified file to the preprocessor output. `#import` makes sure that the file is only included once.
+
 What are global variables?
 
 Explain what a callback is. How might callbacks be useful?
