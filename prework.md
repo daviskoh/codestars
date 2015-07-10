@@ -289,7 +289,11 @@ Immutable objects in Objective-C are objects that only be read and not modified.
 
 What is the difference between an NSSet and an NSMutableSet?
 
+NSSets are immutable (static / cannot add or remove objects dynamically) while NSMutableSets are. 
+
 What is the difference between NSDictionary and NSMutable Dictionary?
+
+NSDictionaries are static while NSMutableDictionaries allow adding of new key-value pairs. 
 
 What are #import and #include used for?
 
