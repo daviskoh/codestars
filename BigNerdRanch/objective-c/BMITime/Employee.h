@@ -12,7 +12,7 @@
 @class Asset;
 
 @interface Employee : Person {
-    NSMutableArray *assets;
+    NSMutableSet *assets;
 }
 
 @property int employeeID;
