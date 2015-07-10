@@ -14,11 +14,21 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         NSMutableArray *employees = [[NSMutableArray alloc] init];
         
+        NSMutableDictionary *executives = [[NSMutableDictionary alloc] init];
+        
         for (int i = 0; i < 10; i++) {
             Employee *person = [[Employee alloc] initWithHeightInMeters:90+i weightInKilos:1.8-i/10.0];
             person.employeeID = i;
             
             [employees addObject:person];
+            
+            if (i == 0) {
+                [executives setObject:person forKey:@"CEO"];
+            }
+            
+            if (i == 1) {
+                [executives setObject:person forKey:@"CTO"];
+            }
         }
         
         NSMutableArray *allAssets = [[NSMutableArray alloc] init];
@@ -50,6 +60,8 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"allAssets: %@", allAssets);
         
+        NSLog(@"executives: %@", executives);
+        
         NSPredicate *predicate = [NSPredicate predicateWithFormat:@"holder.valueOfAssets > 70"];
         NSArray *toBeReclaimed = [allAssets filteredArrayUsingPredicate:predicate];
         NSLog(@"toBeReclaimed: %@", toBeReclaimed);
@@ -59,6 +71,7 @@ int main(int argc, const char * argv[]) {
         
         allAssets = nil;
         employees = nil;
+        executives = nil;
     }
     
     sleep(100);
