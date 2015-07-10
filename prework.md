@@ -301,7 +301,7 @@ These are preprocessor directives that add a specified file to the preprocessor 
 
 What are global variables?
 
-Global variables are variables that can be accessed in any file without explicity inclusion. 
+Global variables are variables that can be accessed in any file without explicity inclusion. In Objective-C, it is one of 2 ways to define constants. 
 
 Explain what a callback is. How might callbacks be useful?
 
