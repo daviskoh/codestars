@@ -16,12 +16,20 @@ int main(int argc, const char * argv[]) {
             [str appendString:@"Aaron is cool!\n"];
         }
         
-        [str writeToFile:@"/tmp/cool.txt"
+        NSError *error = nil;
+        
+        // try writing to @"/meowmix/foo.txt"
+        BOOL success = [str writeToFile:@"/tmp/cool.txt"
               atomically:YES
                 encoding:NSUTF8StringEncoding
-                   error:NULL];
-
-        NSLog(@"done writing /tmp/cool.text");
+                   error:&error];
+        // NOTE: &error above is an address of an address (see writToFile:atomically:encoding:error for details)
+        
+        if (success) {
+            NSLog(@"done writing /tmp/cool.text");
+        } else {
+            NSLog(@"writing /tmp/cool.txt failed: %@", [error localizedDescription]);
+        }
     }
     return 0;
 }
