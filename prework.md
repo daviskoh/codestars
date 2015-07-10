@@ -285,6 +285,8 @@ One way is to make sure retain cycles do not occur. This can be done making sure
 
 What are immutable objects in Objective-C? Name some immutable objects.
 
+Immutable objects in Objective-C are objects that only be read and not modified. Some examples are NSArray, NSString, NSSet, and NSURLRequest.
+
 What is the difference between an NSSet and an NSMutableSet?
 
 What is the difference between NSDictionary and NSMutable Dictionary?
