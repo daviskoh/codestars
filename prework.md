@@ -301,6 +301,8 @@ These are preprocessor directives that add a specified file to the preprocessor 
 
 What are global variables?
 
+Global variables are variables that can be accessed in any file without explicity inclusion. 
+
 Explain what a callback is. How might callbacks be useful?
 
 Explain what a block is, what would we use one for?
