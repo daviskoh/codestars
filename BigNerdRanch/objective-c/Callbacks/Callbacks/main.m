@@ -19,6 +19,20 @@
  * - ex: fetchConn below
  */
 
+/**
+ * Callbacks and Object Ownership
+ * 
+ * Notification centers do not own their observers
+ * 
+ * Objects do not won their delegates or data sources
+ *
+ * Obejcts do not own their targets
+ *
+ * NOTE: 2 exceptions to the rule used in examples below
+ * - NSURLConnection owns its delegate
+ * - NSTimer owns its target
+ */
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Logger *logger = [[Logger alloc] init];
