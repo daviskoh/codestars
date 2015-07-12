@@ -15,4 +15,6 @@
 // t - sender of message
 - (void)sayOuch:(NSTimer *)t;
 
+- (void)zoneChange:(NSNotification *)note;
+
 @end
